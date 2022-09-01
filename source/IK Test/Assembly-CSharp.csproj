@@ -56,9 +56,13 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\GeckoController.cs" />
-    <Compile Include="Assets\Scripts\Stepping.cs" />
-    <Compile Include="Assets\Scripts\IKController.cs" />
+    <Compile Include="Assets\Scripts\Gecko\GeckoController.cs" />
+    <Compile Include="Assets\Scripts\PlayerStepper.cs" />
+    <Compile Include="Assets\Scripts\PlayerIkControllerv2.cs" />
+    <Compile Include="Assets\Scripts\PlayerIKController.cs" />
+    <Compile Include="Assets\Scripts\PlayerStepperv2.cs" />
+    <Compile Include="Assets\Scripts\Gecko\Stepping.cs" />
+    <Compile Include="Assets\Scripts\Gecko\IKController.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
