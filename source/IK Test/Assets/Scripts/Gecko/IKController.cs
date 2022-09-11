@@ -73,8 +73,8 @@ public class IKController : MonoBehaviour
     private void LateUpdate()
     {
         HeadTracking();
-        //EyeTracking(leftEyeBone);
-        //EyeTracking(rightEyeBone);
+        EyeTracking(leftEyeBone);
+        EyeTracking(rightEyeBone);
         MotionUpdate();
     }
 

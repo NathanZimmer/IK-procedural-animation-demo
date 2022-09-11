@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/Animation testing.unity
+- path: Assets/Scenes/Bonehead IK.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
